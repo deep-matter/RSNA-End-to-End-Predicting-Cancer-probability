@@ -110,6 +110,9 @@ Check_Point_Callbacks = ModelCheckpoint(
  
 
 if __name__ == '__main__':
+
+    args = make_parse()
+    
     Trainer = pl.Trainer(accelerator='gpu', devices=args.gpus, logger=TensorBoardLogger(save_dir= "./processed/logs_weights_ex"), log_every_n_steps=1,
                      callbacks=Check_Point_Callbacks,                    
                      max_epochs=args.Epochs)   
