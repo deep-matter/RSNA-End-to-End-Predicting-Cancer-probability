@@ -1,4 +1,4 @@
-# RSNA-End-to-End-Predicting-Cancer-probability-
+# RSNA-End-to-End-Predicting-Cancer-probability
 #### Problem Description <a class="anchor" id="Problem Description"></a>
    * **problem** : In this competition our goal is to predict the presence or absence of cancer in mammography images. 
    * **helped Notebooks**: in our journey i will use some hopefull ideas from other notebook and i will mention them in description 
@@ -13,9 +13,9 @@
                4. extrat the image label from Train.Csv file 
                5. Virtualize few sample 
 * **Run** 
-    to the train step following this command 
-    
+    - to the train step following this command 
+
     ```python
-     python train.py --stage 'train' --gpus 0 --Epochs 200
-```                
+    python train.py --stage 'train' --gpus 0 --Epochs 200
+    ```                
    
